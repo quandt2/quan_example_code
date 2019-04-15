@@ -29,10 +29,15 @@ Send mail configuration
 It is recommended to use gmail mailbox, modify the following lines in the .env file in the root directory:
 
 MAIL_DRIVER=smtp
+
 MAIL_HOST=smtp.googlemail.com
+
 MAIL_PORT=465
+
 MAIL_USERNAME=YOUR GMAIL
+
 MAIL_PASSWORD=YOUR PASSWORD
+
 MAIL_ENCRYPTION=ssl
  
 start server to test:
